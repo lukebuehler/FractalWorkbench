@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Explore", "Src\Explore\Explore.fsproj", "{E6B42F71-1220-4FAC-817A-F90CF094895C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{3088C4EA-9BE1-4A53-A180-0E69D7B5E40A}"
+	ProjectSection(SolutionItems) = preProject
+		Links.md = Links.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
