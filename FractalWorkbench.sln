@@ -11,6 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{3088C4EA
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalWorkbench.Explorer", "Src\FractalWorkbench.Explorer\FractalWorkbench.Explorer.csproj", "{05246796-1999-45A6-93CD-86F6F92D7FAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{578882ED-ABBB-4AC9-8928-D80AD0EC90E9} = {578882ED-ABBB-4AC9-8928-D80AD0EC90E9}
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FractalWorkbench.Core", "Src\FractalWorkbench.Core\FractalWorkbench.Core.fsproj", "{578882ED-ABBB-4AC9-8928-D80AD0EC90E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,14 @@ Global
 		{E6B42F71-1220-4FAC-817A-F90CF094895C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B42F71-1220-4FAC-817A-F90CF094895C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6B42F71-1220-4FAC-817A-F90CF094895C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05246796-1999-45A6-93CD-86F6F92D7FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05246796-1999-45A6-93CD-86F6F92D7FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05246796-1999-45A6-93CD-86F6F92D7FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05246796-1999-45A6-93CD-86F6F92D7FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578882ED-ABBB-4AC9-8928-D80AD0EC90E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578882ED-ABBB-4AC9-8928-D80AD0EC90E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578882ED-ABBB-4AC9-8928-D80AD0EC90E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578882ED-ABBB-4AC9-8928-D80AD0EC90E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
